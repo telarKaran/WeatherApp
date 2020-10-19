@@ -1,0 +1,85 @@
+.wrapper{
+    background-color: #f9fafb;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+.main{
+    text-align: center;
+   
+}
+.container {
+    background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5)),
+                     url( 'https://www.kolpaper.com/wp-content/uploads/2020/03/summer-wallpaper-hd.jpg');
+
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 500px;
+  }
+  .Titles{
+      margin-top: 50px;
+      padding: 20px;
+  }
+  .form-control{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 14px;
+  }
+  .form-button{
+    cursor: pointer;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    margin-left: 10px;
+    width: 95%;
+  }
+
+  .weather__info {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+  }
+  
+  .weather__key {
+    color: 	#e6ccff;
+    border-bottom: solid 2px rgba(255,255,255,0.06);
+    padding: 20px 0 20px 0;
+    font-weight: 400;
+  }
+  
+  .weather__key:last-child {
+    border: 0;
+  }
+  
+  .weather__value {
+    color: #fff;
+    font-weight: 200;
+  }
+  
+  .weather__error {
+    color: #f16051;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 200;
+  }
